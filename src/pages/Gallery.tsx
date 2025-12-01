@@ -1,8 +1,8 @@
 import { GalleryGrid } from '@/components/GalleryGrid';
 import { Image as ImageIcon } from 'lucide-react';
-import heroImage from '@/assets/hero-housing.jpg';
-import protestImage from '@/assets/protest-unity.jpg';
-import communityImage from '@/assets/community-meeting.jpg';
+import heroImage from '@/assets/local.png';
+import protestImage from '@/assets/protest-unity.png';
+import communityImage from '@/assets/community-meeting.png';
 
 export default function Gallery() {
   const galleryItems = [
