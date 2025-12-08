@@ -21,9 +21,12 @@ export const Navbar = () => {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-3 group">
-            <div className="w-12 h-12 rounded-lg bg-gradient-to-br from-hope to-progress flex items-center justify-center text-white font-bold text-xl shadow-md group-hover:shadow-lg transition-shadow">
-              ص
-            </div>
+            {/* Logo Icon - Easy to replace: change the src path here */}
+            <img 
+              src="/icon.png" 
+              alt="صوت الرك الأصفر" 
+              className="w-20 h-12 object-contain" 
+            />
             <div className="flex flex-col">
               <span className="text-xl font-bold text-foreground">صوت الرك الأصفر</span>
               <span className="text-sm text-muted-foreground">كلميم</span>
