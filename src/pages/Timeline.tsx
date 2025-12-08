@@ -7,11 +7,11 @@ export default function Timeline() {
       <div className="container mx-auto px-4">
         {/* Header */}
         <div className="max-w-3xl mx-auto text-center mb-16">
-          <div className="inline-block p-3 bg-primary/10 rounded-full mb-6">
+          <div className="inline-block p-4 bg-primary/10 rounded-full mb-6">
             <Calendar className="w-12 h-12 text-primary" />
           </div>
-          <h1 className="text-4xl md:text-5xl font-bold mb-6">الخط الزمني للأحداث</h1>
-          <p className="text-lg md:text-xl text-muted-foreground leading-relaxed">
+          <h1 className="text-5xl md:text-6xl font-bold mb-6 leading-tight">الخط الزمني للأحداث</h1>
+          <p className="text-xl md:text-2xl text-muted-foreground leading-relaxed">
             رحلة 18 سنة من الوعود والانتظار
           </p>
         </div>

@@ -16,6 +16,18 @@ export default {
       fontFamily: {
         arabic: ['Tajawal', 'sans-serif'],
       },
+      fontSize: {
+        'xs': ['0.875rem', { lineHeight: '1.4' }],      /* 14px */
+        'sm': ['1rem', { lineHeight: '1.5' }],           /* 16px */
+        'base': ['1.125rem', { lineHeight: '1.6' }],    /* 18px - increased from 16px */
+        'lg': ['1.375rem', { lineHeight: '1.65' }],     /* 22px - increased from 18px */
+        'xl': ['1.625rem', { lineHeight: '1.7' }],      /* 26px - increased from 20px */
+        '2xl': ['2rem', { lineHeight: '1.75' }],        /* 32px - increased from 24px */
+        '3xl': ['2.5rem', { lineHeight: '1.8' }],       /* 40px - increased from 30px */
+        '4xl': ['3rem', { lineHeight: '1.8' }],         /* 48px - increased from 36px */
+        '5xl': ['3.75rem', { lineHeight: '1.85' }],     /* 60px - increased from 48px */
+        '6xl': ['4.5rem', { lineHeight: '1.9' }],       /* 72px - increased from 60px */
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",

@@ -32,11 +32,11 @@ export const Counter = ({ end, duration = 2000, label, suffix = '' }: CounterPro
 
   return (
     <div className="text-center">
-      <div className="text-4xl md:text-5xl lg:text-6xl font-bold text-foreground mb-2 animate-count-up">
+      <div className="text-5xl md:text-6xl lg:text-7xl font-bold text-foreground mb-4 animate-count-up leading-tight">
         {count.toLocaleString('ar-MA')}
         {suffix}
       </div>
-      <div className="text-sm md:text-base text-muted-foreground font-medium">
+      <div className="text-base md:text-lg text-muted-foreground font-medium">
         {label}
       </div>
     </div>

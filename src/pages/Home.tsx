@@ -6,8 +6,8 @@ import { NewsTicker } from '@/components/NewsTicker';
 import { useApp } from '@/context/AppContext';
 import siteData from '@/data/siteData.json';
 import heroImage from '@/assets/hero-housing.jpg';
-import protestImage from '@/assets/protest-unity.jpg';
-import communityImage from '@/assets/community-meeting.jpg';
+import protestImage from '@/assets/protest-unity.png';
+import communityImage from '@/assets/community-meeting.png';
 
 export default function Home() {
   const { getSignatureCount } = useApp();
@@ -30,10 +30,10 @@ export default function Home() {
         
         <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-2xl">
-            <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 animate-fade-in">
+            <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 animate-fade-in leading-tight">
               {siteData.site.slogan}
             </h1>
-            <p className="text-lg md:text-xl text-white/90 mb-8 leading-relaxed animate-fade-in">
+            <p className="text-xl md:text-2xl text-white/90 mb-8 leading-relaxed animate-fade-in">
               {siteData.site.description}
             </p>
             <div className="flex flex-wrap gap-4 animate-fade-in">

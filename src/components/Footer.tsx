@@ -9,7 +9,7 @@ export const Footer = () => {
           {/* About */}
           <div className="space-y-4">
             <h3 className="text-lg font-bold text-foreground">صوت الرك الأصفر</h3>
-            <p className="text-sm text-muted-foreground leading-relaxed">
+            <p className="text-lg text-muted-foreground leading-relaxed">
               منصة نضالية لـ 5000 أسرة تنتظر حقها في السكن اللائق منذ 18 سنة في كلميم.
             </p>
           </div>
@@ -19,22 +19,22 @@ export const Footer = () => {
             <h3 className="text-lg font-bold text-foreground">روابط سريعة</h3>
             <ul className="space-y-2">
               <li>
-                <Link to="/" className="text-sm text-muted-foreground hover:text-primary transition-colors">
+                <Link to="/" className="text-lg text-muted-foreground hover:text-primary transition-colors">
                   الرئيسية
                 </Link>
               </li>
               <li>
-                <Link to="/about" className="text-sm text-muted-foreground hover:text-primary transition-colors">
+                <Link to="/about" className="text-lg text-muted-foreground hover:text-primary transition-colors">
                   عن المشروع
                 </Link>
               </li>
               <li>
-                <Link to="/timeline" className="text-sm text-muted-foreground hover:text-primary transition-colors">
+                <Link to="/timeline" className="text-lg text-muted-foreground hover:text-primary transition-colors">
                   الخط الزمني
                 </Link>
               </li>
               <li>
-                <Link to="/petition" className="text-sm text-muted-foreground hover:text-primary transition-colors">
+                <Link to="/petition" className="text-lg text-muted-foreground hover:text-primary transition-colors">
                   العريضة
                 </Link>
               </li>
@@ -45,15 +45,15 @@ export const Footer = () => {
           <div className="space-y-4">
             <h3 className="text-lg font-bold text-foreground">تواصل معنا</h3>
             <ul className="space-y-3">
-              <li className="flex items-center gap-2 text-sm text-muted-foreground">
+              <li className="flex items-center gap-2 text-lg text-muted-foreground">
                 <Mail className="w-4 h-4" />
               malikaelmaich@gmail.com
               </li>
-              <li className="flex items-center gap-2 text-sm text-muted-foreground">
+              <li className="flex items-center gap-2 text-lg text-muted-foreground">
                 <Phone className="w-4 h-4" />
                 +212 702-003769
               </li>
-              <li className="flex items-center gap-2 text-sm text-muted-foreground">
+              <li className="flex items-center gap-2 text-lg text-muted-foreground">
                 <MapPin className="w-4 h-4" />
                 كلميم، المغرب
               </li>
@@ -96,7 +96,7 @@ export const Footer = () => {
         </div>
 
         <div className="mt-8 pt-8 border-t border-border text-center">
-          <p className="text-sm text-muted-foreground">
+          <p className="text-lg text-muted-foreground">
             © 2025 صوت الرك الأصفر. جميع الحقوق محفوظة.
           </p>
         </div>

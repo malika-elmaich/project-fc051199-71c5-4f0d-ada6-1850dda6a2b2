@@ -57,8 +57,8 @@ export default function Contact() {
       <div className="container mx-auto px-4">
         {/* Header */}
         <div className="max-w-3xl mx-auto text-center mb-16">
-          <h1 className="text-4xl md:text-5xl font-bold mb-6">تواصل معنا</h1>
-          <p className="text-lg md:text-xl text-muted-foreground leading-relaxed">
+          <h1 className="text-5xl md:text-6xl font-bold mb-6 leading-tight">تواصل معنا</h1>
+          <p className="text-xl md:text-2xl text-muted-foreground leading-relaxed">
             نحن هنا للاستماع إليك. تواصل معنا للاستفسارات أو الانضمام إلى النضال
           </p>
         </div>
@@ -67,16 +67,16 @@ export default function Contact() {
           {/* Contact Info */}
           <div className="space-y-8">
             <div className="glass-card p-8 rounded-xl">
-              <h2 className="text-2xl font-bold mb-6">معلومات الاتصال</h2>
+              <h2 className="text-3xl font-bold mb-8 leading-tight">معلومات الاتصال</h2>
               
               <div className="space-y-6">
                 <div className="flex items-start gap-4">
-                  <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center flex-shrink-0">
+                  <div className="w-14 h-14 bg-primary/10 rounded-full flex items-center justify-center flex-shrink-0">
                     <Mail className="w-6 h-6 text-primary" />
                   </div>
                   <div>
-                    <h3 className="font-bold mb-1">البريد الإلكتروني</h3>
-                    <p className="text-muted-foreground">{siteData.contact.email}</p>
+                    <h3 className="font-bold mb-2 text-lg">البريد الإلكتروني</h3>
+                    <p className="text-muted-foreground text-base">{siteData.contact.email}</p>
                   </div>
                 </div>
 
@@ -146,7 +146,7 @@ export default function Contact() {
           {/* Contact Form */}
           <div>
             <div className="bg-card p-8 rounded-xl border border-border sticky top-20">
-              <h2 className="text-2xl font-bold mb-6">أرسل رسالة</h2>
+              <h2 className="text-3xl font-bold mb-8 leading-tight">أرسل رسالة</h2>
               <form onSubmit={handleSubmit} className="space-y-6">
                 <div>
                   <Label htmlFor="contact-name">الاسم الكامل *</Label>

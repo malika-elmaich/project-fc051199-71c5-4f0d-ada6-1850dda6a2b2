@@ -6,8 +6,8 @@ export default function About() {
       <div className="container mx-auto px-4">
         {/* Header */}
         <div className="max-w-3xl mx-auto text-center mb-16">
-          <h1 className="text-4xl md:text-5xl font-bold mb-6">عن مشروع الرك الأصفر</h1>
-          <p className="text-lg md:text-xl text-muted-foreground leading-relaxed">
+          <h1 className="text-5xl md:text-6xl font-bold mb-6 leading-tight">عن مشروع الرك الأصفر</h1>
+          <p className="text-xl md:text-2xl text-muted-foreground leading-relaxed">
             قصة نضال طويل من أجل حق أساسي: السكن اللائق
           </p>
         </div>
@@ -15,8 +15,8 @@ export default function About() {
         {/* Story */}
         <div className="max-w-4xl mx-auto mb-16">
           <div className="glass-card p-8 md:p-12 rounded-xl">
-            <h2 className="text-2xl md:text-3xl font-bold mb-6 text-primary">القصة الكاملة</h2>
-            <div className="space-y-6 text-lg leading-relaxed">
+            <h2 className="text-3xl md:text-4xl font-bold mb-8 text-primary leading-tight">القصة الكاملة</h2>
+            <div className="space-y-8 text-lg md:text-xl leading-relaxed">
               <p>
                 في عام 2005، وعدت الدولة سكان منطقة الرك الأصفر في كلميم بتوفير سكن لائق لـ 5000 أسرة. 
                 كان الوعد واضحاً: مساكن عصرية، بنية تحتية متكاملة، وحياة كريمة في أجل لا يتجاوز 3 سنوات.
@@ -33,7 +33,7 @@ export default function About() {
                 الجهود والمطالب. أصبح صوتنا أعلى، وإرادتنا أقوى، وتصميمنا على نيل حقوقنا لا يلين.
               </p>
               
-              <p className="font-bold text-xl text-urgency">
+              <p className="font-bold text-2xl text-urgency bg-urgency/5 p-6 rounded-lg">
                 هذا ليس مجرد نضال من أجل مساكن. هذا نضال من أجل الكرامة الإنسانية، من أجل العدالة الاجتماعية، 
                 من أجل حق كل مواطن في حياة لائقة.
               </p>
@@ -47,8 +47,8 @@ export default function About() {
             <div className="w-16 h-16 bg-hope/10 rounded-full flex items-center justify-center mb-6">
               <Users className="w-8 h-8 text-hope" />
             </div>
-            <h3 className="text-xl font-bold mb-4">من نحن</h3>
-            <p className="text-muted-foreground leading-relaxed">
+            <h3 className="text-2xl font-bold mb-4 leading-tight">من نحن</h3>
+            <p className="text-base md:text-lg text-muted-foreground leading-relaxed">
               الفيدرالية الجهوية لسكان الرك الأصفر، منظمة نضالية تمثل 5000 أسرة متضررة من التأخير 
               الكبير في إنجاز المشروع السكني.
             </p>
@@ -58,8 +58,8 @@ export default function About() {
             <div className="w-16 h-16 bg-urgency/10 rounded-full flex items-center justify-center mb-6">
               <Target className="w-8 h-8 text-urgency" />
             </div>
-            <h3 className="text-xl font-bold mb-4">أهدافنا</h3>
-            <p className="text-muted-foreground leading-relaxed">
+            <h3 className="text-2xl font-bold mb-4 leading-tight">أهدافنا</h3>
+            <p className="text-base md:text-lg text-muted-foreground leading-relaxed">
               الإسراع في إنجاز المشروع، محاسبة المسؤولين عن التأخير، وضمان حصول كل أسرة على سكن لائق 
               يليق بكرامتها.
             </p>
@@ -69,8 +69,8 @@ export default function About() {
             <div className="w-16 h-16 bg-progress/10 rounded-full flex items-center justify-center mb-6">
               <Heart className="w-8 h-8 text-progress" />
             </div>
-            <h3 className="text-xl font-bold mb-4">قيمنا</h3>
-            <p className="text-muted-foreground leading-relaxed">
+            <h3 className="text-2xl font-bold mb-4 leading-tight">قيمنا</h3>
+            <p className="text-base md:text-lg text-muted-foreground leading-relaxed">
               النضال السلمي، التضامن، الشفافية، والإصرار على نيل الحقوق المشروعة مهما طال الزمن.
             </p>
           </div>
