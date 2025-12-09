@@ -64,7 +64,7 @@ export default function Gallery() {
       id: 5,
       title: 'التضامن الشعبي',
       description: 'مواطنون يتضامنون مع قضية سكان الرك الأصفر',
-      image: GALLERY_IMAGES.protest,
+      image:GALLERY_IMAGES.protest,
       date: '2024-05-12',
     },
     {
